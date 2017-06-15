@@ -47,7 +47,7 @@
     "no-construct": true,
     "no-debugger": true,
     "no-duplicate-super": true,
-    "no-empty": false,
+    "no-empty": true,
     "no-empty-interface": true,
     "no-eval": true,
     "no-inferrable-types": [
@@ -110,13 +110,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "ilp",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "ilp",
       "kebab-case"
     ],
     "use-input-property-decorator": true,
